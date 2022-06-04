@@ -133,4 +133,5 @@ def detect(scale=1.1, neighbours=3, rec_buffer=5, out_ext='mp4', out_path='.'):
 
 if __name__ == '__main__':
     rec_path = os.path.join(os.getcwd(), 'rec')
+    os.makedirs(rec_path, exist_ok=True)
     detect(out_path=rec_path)
