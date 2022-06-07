@@ -1,8 +1,8 @@
 import os
+import cv2
 import time
 import logging
 import datetime
-import cv2
 
 def get_all_haarcascades():
     HAARCASCADES = {}
